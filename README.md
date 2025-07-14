@@ -104,3 +104,105 @@ Built with React, TypeScript, and Tailwind CSS for blazing-fast UX across device
    cd routesync
    ```
 2. Install dependencies:
+
+   ```bash
+   npm install
+   # or yarn
+   ```
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+4. Open in browser:
+
+   ```
+   https://localhost:5173
+   ```
+
+---
+
+## 🚀 Usage
+
+1. **Grant Location Access** when prompted by the browser.
+2. **Start Tracking** – click the ▶️ button in the top‑right.
+3. **Monitor Metrics** – view live distance, time, speed, calories.
+4. **Pause/Stop** – use controls to pause or finish the session.
+5. **View History** – scroll to load past routes, delete as needed.
+
+---
+
+## 🔧 Configuration
+
+Create a `.env` file at root:
+
+```env
+VITE_APP_NAME=RouteSync
+VITE_APP_VERSION=1.0.0
+VITE_GEO_ACCURACY=high
+```
+
+Adjust GPS precision, canvas resolution, pagination size, and network thresholds here.
+
+---
+
+## 🧪 Testing & Compatibility
+
+* **Manual Tests**:
+
+  * GPS error recovery
+  * Canvas rendering on various DPRs
+  * Infinite scroll performance
+  * Offline/online transitions
+
+* **Browsers**:
+
+  * Chrome >= 80 ✓
+  * Firefox >= 75 ✓
+  * Safari >= 13 ✓
+  * Edge >= 80 ✓
+
+---
+
+## ⚡ Performance Optimizations
+
+* Leverage `requestAnimationFrame` for smooth canvas draws
+* Scale for device pixel ratio
+* Cleanup observers on unmount
+* Paginate route history
+* Adaptive data fetch based on `navigator.connection`
+
+---
+
+## 🔭 Future Roadmap
+
+* **Route Sharing** – export & social share
+* **PWA/Installable App**
+* **Weather Overlay**
+* **3D Visualization (WebGL)**
+* **Social Challenges & Leaderboards**
+
+---
+
+## 🤝 Contributing
+
+1. Fork & clone the repo
+2. Create a feature branch
+3. Implement your changes
+4. Add tests if needed
+5. Open a PR and describe your changes
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 📄 License & Support
+
+© 2025 RouteSync Contributors. Released under the MIT License.
+
+* 🐛 Report issues: [GitHub Issues](https://github.com/yourusername/routesync/issues)
+* 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/routesync/discussions)
+
+---
+
+**RouteSync** - *Smart GPS tracking with real-time route synchronization* 🏃‍♂️✨
