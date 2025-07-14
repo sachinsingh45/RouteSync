@@ -2,7 +2,7 @@
 
 **Smart GPS fitness tracker with real-time route synchronization and advanced web technologies**
 
-![RouteSync Demo](https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1200&h=400&fit=crop)
+![RouteSync Demo](https://route-sync-sooty.vercel.app/)
 
 ## 🌟 Overview
 
@@ -305,5 +305,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**RouteSync** - *Smart GPS tracking with real-time route synchronization* 🏃‍♂️✨#   R o u t e S y n c  
+**RouteSync** - *Smart GPS tracking with real-time route synchronization* 🏃‍♂️✨#   R o u t e S y n c 
+ 
  
