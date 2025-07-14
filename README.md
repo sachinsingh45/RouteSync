@@ -1,14 +1,8 @@
 <!-- Ensure this file is named `README.md` in your repo root for GitHub to render it automatically -->
 
 <p align="center">
-  <img src="https://route-sync-sooty.vercel.app/og.png" alt="RouteSync Logo" width="200" />
   <h1 align="center">RouteSync 🏃‍♂️</h1>
   <p align="center"><em>Smart GPS fitness tracker with real-time route synchronization and advanced Web APIs</em></p>
-  <p align="center">
-    <a href="https://github.com/yourusername/routesync/actions/workflows/ci.yml"><img src="https://github.com/yourusername/routesync/actions/workflows/ci.yml/badge.svg" alt="CI status" /></a>
-    <a href="https://www.npmjs.com/package/routesync"><img src="https://img.shields.io/npm/v/routesync.svg" alt="npm version" /></a>
-    <a href="LICENSE"><img src="https://img.shields.io/github/license/yourusername/routesync.svg" alt="License" /></a>
-  </p>
 </p>
 
 ---
